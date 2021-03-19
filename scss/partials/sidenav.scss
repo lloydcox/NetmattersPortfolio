@@ -1,0 +1,76 @@
+.sidenav {
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: $color-white;
+    overflow-x: hidden;
+    border-right: 1px solid green;
+    color: green;
+}
+
+.sidenav a {
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+display: block;
+color: green;
+}
+
+.sidenav li:hover {
+color: green;
+}
+
+.initial {
+    border-bottom: 3px solid green;
+    font-size: 75px;
+    color: green;
+    p {
+        margin: 0;
+    }
+}
+
+.list {
+    margin: 50px auto 10px;
+    li {
+        position: relative;
+        list-style: none;
+    }
+}
+
+.list-item {
+    margin: 20px 0;
+
+    width: 100%;
+    p {
+        margin: auto;
+        width: fit-content;
+        border: 3px solid transparent;
+    }
+}
+
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    .icon {
+        // margin: 5px;
+        border: 3px solid transparent;
+        font-size: 20px;
+    }
+}
+
+.list-item p:hover, .icon:hover {
+    border-bottom: 3px solid green;
+    cursor: pointer;
+}
+
+.list-item:active {
+    border: 3px solid green;
+    cursor: pointer;
+}
+  

@@ -1,0 +1,75 @@
+.git {
+    display: flex;
+    justify-content: center;
+}
+
+.get-in-touch {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact {
+width:35%;
+display: flex;
+justify-content: flex-start;
+}
+
+.restrict {
+    width: 80%;
+    text-align: start;
+}
+
+.form {
+    height: 100%;
+    width: 65%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.form-control-message {
+    width: 100%;
+    height: 200px;
+    font-size: 1.40em;
+    padding: 0;
+}
+
+.form-group {
+    width: 100%;
+    padding: 2px;
+}
+
+.fname, .lname {
+    width: 49%;
+}
+
+.fname {
+    margin-right: auto;
+}
+
+.submit-btn {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.submit {
+    padding: 10px 35px;
+    color: black;
+    background-color: green;
+    border-radius: 5px;
+    font-size: 1.25em;
+    font-family: 'Space Mono', monospace;
+    margin-top: 20px;
+}
+
+.arrow-up {
+    margin-top: 75px;
+    a  {
+    color: black;
+    }
+}

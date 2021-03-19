@@ -1,0 +1,23 @@
+body {
+    font-family: 'Space Mono', monospace;
+}
+
+.main {
+    text-align: center;
+    margin-left: 220px; /* Same as the width of the sidenav */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 90%;
+}
+
+input[type="text"], input[type="email"], textarea {
+
+    background-color : #e0e0e0; 
+  
+  }

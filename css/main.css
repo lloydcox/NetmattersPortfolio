@@ -1,0 +1,417 @@
+ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+/* HEADINGS DEFAULT */
+/* FORM DEFAULTS */
+form h2 {
+  margin: 25px auto;
+  text-align: center;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+form input {
+  width: 100%;
+  display: block;
+  padding: 13px 13px;
+  font-size: 1em;
+  margin: 5px auto 10px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background: transparent;
+  border: 1px solid #3E606F;
+}
+
+form input:focus {
+  outline: none;
+}
+
+/* BUTTON DEFAULT */
+.btn {
+  color: white;
+  background: #4E6166;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  letter-spacing: 0.1em;
+  margin: 10px 0px;
+  padding: 13px 20px;
+  text-decoration: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0px auto;
+}
+
+/* NAVBAR */
+.navbar {
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #3E606F;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  float: right;
+}
+
+.navbar ul li {
+  float: left;
+  font-family: "Noto Serif", serif;
+}
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 28px;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: #B9E6F2;
+  background-color: #334F5C;
+}
+
+/* LOGO */
+.navbar .logo_div {
+  float: left;
+  padding-top: 5px;
+  padding-left: 40px;
+}
+
+.navbar .logo_div h1 {
+  color: #B9E6F2;
+  font-size: 3em;
+  letter-spacing: 5px;
+  font-weight: 100;
+  font-family: "Tangerine", cursive;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #73707D;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto 0px;
+  padding: 20px 0px;
+}
+
+/* - Colours - */
+body {
+  font-family: "Space Mono", monospace;
+}
+
+.main {
+  text-align: center;
+  margin-left: 220px;
+  /* Same as the width of the sidenav */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  width: 90%;
+}
+
+input[type=text], input[type=email], textarea {
+  background-color: #e0e0e0;
+}
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  border-right: 1px solid green;
+  color: green;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+  color: green;
+}
+
+.sidenav li:hover {
+  color: green;
+}
+
+.initial {
+  border-bottom: 3px solid green;
+  font-size: 75px;
+  color: green;
+}
+.initial p {
+  margin: 0;
+}
+
+.list {
+  margin: 50px auto 10px;
+}
+.list li {
+  position: relative;
+  list-style: none;
+}
+
+.list-item {
+  margin: 20px 0;
+  width: 100%;
+}
+.list-item p {
+  margin: auto;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 3px solid transparent;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.socials .icon {
+  border: 3px solid transparent;
+  font-size: 20px;
+}
+
+.list-item p:hover, .icon:hover {
+  border-bottom: 3px solid green;
+  cursor: pointer;
+}
+
+.list-item:active {
+  border: 3px solid green;
+  cursor: pointer;
+}
+
+.banner {
+  background-image: url("../../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.intro {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 30%;
+}
+.intro h1 {
+  font-size: 4em;
+  margin: 20px 0 0;
+}
+.intro h3 {
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.down {
+  position: absolute;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  bottom: 1%;
+  font-size: 1em;
+}
+.down h4 {
+  margin: 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.project {
+  width: 30%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.project a {
+  color: #050505;
+  text-decoration: none;
+}
+.project img {
+  height: 300px;
+  width: 100%;
+  opacity: 1;
+}
+
+.p-text {
+  text-align: start;
+}
+
+.p-name, .view {
+  text-align: left;
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  width: 100%;
+  vertical-align: top;
+}
+
+.image:after {
+  content: "\a";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+}
+
+.project:hover .image:hover:after {
+  opacity: 0.7;
+}
+.project:hover .p-text {
+  opacity: 0.3;
+}
+
+.git {
+  display: flex;
+  justify-content: center;
+}
+
+.get-in-touch {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contact {
+  width: 35%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.restrict {
+  width: 80%;
+  text-align: start;
+}
+
+.form {
+  height: 100%;
+  width: 65%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.form-control-message {
+  width: 100%;
+  height: 200px;
+  font-size: 1.4em;
+  padding: 0;
+}
+
+.form-group {
+  width: 100%;
+  padding: 2px;
+}
+
+.fname, .lname {
+  width: 49%;
+}
+
+.fname {
+  margin-right: auto;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.submit {
+  padding: 10px 35px;
+  color: black;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 1.25em;
+  font-family: "Space Mono", monospace;
+  margin-top: 20px;
+}
+
+.arrow-up {
+  margin-top: 75px;
+}
+.arrow-up a {
+  color: black;
+}
